@@ -258,7 +258,7 @@
 	if(document.getElementById("particles-js-circle-bubble")) particlesJS("particles-js-circle-bubble", {
 		"particles": {
 			"number": {
-				"value": 300, "density": {
+				"value": 500, "density": {
 					"enable": true, "value_area": 800
 				}
 			},
@@ -266,14 +266,15 @@
 				"value": "#ffffff"
 			},
 			"shape": {
-				"type":"circle", "stroke": {
+				"type":"circle", 
+				"stroke": {
 					"width": 0, "color": "#000000"
 				},
 				"polygon": {
 					"nb_sides": 5
 				},
 				"image": {
-					"src": "img/github.svg", "width": 100, "height": 100
+					"src": "../img/particle.svg", "width": 100, "height": 100
 				}
 			},
 			"opacity": {
