@@ -403,7 +403,7 @@
 	if(document.getElementById("particles-js-circle-bubble-3")) particlesJS("particles-js-circle-bubble-3", {
 		"particles": {
 			"number": {
-				"value": 100, "density": {
+				"value": 80, "density": {
 					"enable": true, "value_area": 800
 				}
 			},
