@@ -167,33 +167,34 @@
 	});
 
 	// Team Slides
-	$('.instructor-slides').owlCarousel({
-		loop: false,
-		nav: true,
-		dots: false,
-		autoplayHoverPause: true,
-		autoplay: true,
-		navRewind: false,
-		margin: 30,
-		navText: [
-			"<i class='bx bx-left-arrow-alt'></i>",
-			"<i class='bx bx-right-arrow-alt'></i>"
-		],
-		responsive: {
-			0: {
-				items: 1,
-			},
-			576: {
-				items: 2,
-			},
-			768: {
-				items: 2,
-			},
-			1200: {
-				items: 3,
-			}
-		}
-	});
+	// $('.instructor-slides').owlCarousel({
+	// 	loop: false,
+	// 	nav: true,
+	// 	dots: false,
+	// 	autoplayHoverPause: true,
+	// 	autoplay: true,
+	// 	navRewind: false,
+	// 	margin: 30,
+	// 	rewind : true,
+	// 	navText: [
+	// 		"<i class='bx bx-left-arrow-alt'></i>",
+	// 		"<i class='bx bx-right-arrow-alt'></i>"
+	// 	],
+	// 	responsive: {
+	// 		0: {
+	// 			items: 1,
+	// 		},
+	// 		576: {
+	// 			items: 2,
+	// 		},
+	// 		768: {
+	// 			items: 2,
+	// 		},
+	// 		1200: {
+	// 			items: 3,
+	// 		}
+	// 	}
+	// });
 	
 	// Mission Slides
 	$('.mission-slides').owlCarousel({
